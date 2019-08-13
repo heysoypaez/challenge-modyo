@@ -1,0 +1,12 @@
+.about-us {
+	background-color: #EAEAE5;
+}
+
+.about-us__title {
+	text-align: center;
+}
+
+.about-us__container {
+	display: flex;
+	justify-content: space-around;
+}

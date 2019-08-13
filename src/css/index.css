@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,800,900&display=swap');
+
+
+
+
+/*Icons
+--------------*/
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*HTML tags
+------------*/
+
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+
+.landing-page > section {
+	min-height: 300px;
+}
+
+a {
+	background-color: #00AA9D;
+	padding: 10px 20px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: white;
+	box-shadow: gray 1px 1px 10px;
+}
+

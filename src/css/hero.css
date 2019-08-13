@@ -1,0 +1,23 @@
+
+.hero {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.hero__image-presentation img {
+	min-width: ;
+	max-width: 700px;
+}
+
+
+.hero__copytext {
+	padding-left: 10%;
+}
+
+.hero__copytext__title {
+	font-size: 50px;
+	font-weight: 800;
+
+}

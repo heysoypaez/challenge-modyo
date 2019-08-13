@@ -1,0 +1,36 @@
+
+.header {
+
+}
+
+.header__navbar {
+	box-shadow: #ddd 1px 2px 3px;
+	padding: 0.1% 0;
+}
+
+.header__navbar__contact {
+	font-weight: bold;
+	color: #6FD7C9;
+}
+
+.header__navbar ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	padding: 0 30%;
+	align-items: center;
+}
+
+.header__logo {
+
+	margin-top: 10px;
+	text-align: center;
+	font-weight: 600;
+
+}
+
+.header__logo__dot {
+	color: #00AA9D;	
+}
+
+.
