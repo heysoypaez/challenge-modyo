@@ -9,6 +9,8 @@
 
 .contact__form {
 	display: block;
+	background-color: white;
+	padding: 5% 10%;
 }
 
 .contact__form__input {

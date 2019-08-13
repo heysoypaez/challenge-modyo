@@ -1,3 +1,26 @@
 .features {
 	background-color: #EAEAE5;
+	padding-bottom: 8%;
+}
+
+.features__title {
+	text-align: center;
+	padding: 4% 0;
+	margin: 0;
+}
+
+.features__container {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	justify-content: center;
+	grid-gap: 30px 30px;
+}
+
+.feature-item {
+	background-color: white;
+	padding: 3% 5% 10% 5%;
+}
+
+.feature-item__cta {
+	color: #00AA9D;
 }

@@ -22,17 +22,29 @@ body {
 	font-family: "Raleway", sans-serif;
 }
 
+h2 {
+	font-weight: 800;
+	font-size: 2em
+
+}
 
 .landing-page > section {
 	min-height: 300px;
 }
 
 a {
+	color: #00AA9D;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.button {
 	background-color: #00AA9D;
 	padding: 10px 20px;
 	border-radius: 30px;
-	text-decoration: none;
+	
 	color: white;
 	box-shadow: gray 1px 1px 10px;
+	display: inline-block;
 }
 
