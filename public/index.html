@@ -26,26 +26,26 @@
 		 header__logo
 	 hero
 	  hero__copytext
-	  hero__imagepresentation
+	  hero__image-presentation
 	 features
 		features__title
-		 featureitem
-		 featureitem__icon
-		 featureitem__title
-		 featureitem__details
-		 featureitem__cta
+		 feature-item
+		 feature-item__icon
+		 feature-item__title
+		 feature-item__details
+		 feature-item__cta
 	 value-proposal
-	  value-proposal__imagepresentation
+	  value-proposal__image-presentation
 	  value-proposal__copytext
 		 value-proposal__copytext__title
 		 value-proposal__copytext__description
 		 value-proposal__copytext__testimony
 	 about-us
-	  about-us__imagepresentation
-	  about-us__copytext
-		 about-us__copytext__title
-		 about-us__copytext__description
-		 about-us__copytext__link
+	  about-us__container__image-presentation
+	  about-us__container__copytext
+		 about-us__container__copytext__title
+		 about-us__container__copytext__description
+		 about-us__container__copytext__link
 	 testimonials
 		 testimonials__title
 		 testimonials__slider
@@ -63,134 +63,183 @@
 	 footer
 		 footer_copyright
  -->
- <section class="landingpage">
+ <section class="landing-page">
 
- 	<header class="header">
-	 		<nav class="header__navbar">
-	 			<ul>
-	 				<li class="header__navbar__item">Home</li>
-	 				<li class="header__navbar__item">Features</li>
-	 				<li class="header__navbar__item">About Us</li>
-	 				<li class="header__navbar__item">Testiominials</li>
-	 				<li class="header__navbar__item">Blog</li>
-	 				<li class="header__navbar__item">Contact</li>
-	 			</ul>
-	 		</nav>
-	 		<figure class="header__logo">
-	 			<img src="" alt="logo">
-	 		</figure>
- 	</header>
+	 	<header class="header">
+		 		<nav class="header__navbar">
+		 			<ul>
+		 				<li class="header__navbar__item">Home</li>
+		 				<li class="header__navbar__item">Features</li>
+		 				<li class="header__navbar__item">About Us</li>
+		 				<li class="header__navbar__item">Testimonials</li>
+		 				<li class="header__navbar__item">Blog</li>
+		 				<li class="header__navbar__item header__navbar__contact">Contact</li>
+		 			</ul>
+		 		</nav>
+		 		<h1 class="header__logo">
+		 			Landerz<span class="header__logo__dot">.</span>
+		 		</h1>
+	 	</header>
 
-	<section class="hero">
-	 	<section class="hero__copytext">
-	 		<h1 class="hero__copytext__title">Grow Your <br /> Business <br /> Faster </h1>
-	 		<p class="hero__copytext__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-	 		<a href="" class="hero__copytext__button">Get Started</a>
-	 	</section>
-	 	<figure class="hero__imagepresentation">
-			<img src="./img/landing_1.png" alt="hero__imagepresentation"> 		
-	 	</figure>
-	</section>
-
-	<section class="features">
-		<h2 class="features__title">Features</h2>
-
-		<section class="features__container">
-			<article class="featureitem">
-				<figure class="featureitem__icon">
-					<img src="img/svg_1.svg" width="60px" />
-				</figure>		
-				<h3 class="featureitem__title"></h3>
-				<p class="featureitem__details"></p>
-				<a href="" class="featureitem__cta"></a>
-			</article>
-		</section>
-	</section>
-
-	<section class="value-proposal">
-	 	
-	  <figure class="value-proposal__imagepresentation">
-	  	<img 
-	  		src="img/do_ui_kit_download_cta_floating_devices2x.png" 
-	  		alt="value-proposal__imagepresentation" 
-	  		width="600" 
-	  	/>
-	  </figure>
-	  
-	  <section class="value-proposal__copytext">
-		 <h2 class="value-proposal__copytext__title">Create interactive prototypes</h2>
-		 <section class="value-proposal__copytext__description">
-		 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-		 	<ul>
-		 		<li>Ullamco laboris nisi ut aliqui</li>
-		 		<li>Lorem ipsum dolor sit amet</li>
-		 	</ul>
-		 </section>
-		 
-		 <article class="value-proposal__copytext__testimony">
-		 	<figure class="value-proposal__copytext__testimony__avatar">
-		 		
+		<section class="hero">
+		 	<section class="hero__copytext">
+		 		<h1 class="hero__copytext__title">Grow Your <br /> Business <br /> Faster </h1>
+		 		<p class="hero__copytext__description">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
+		 		<a href="" class="hero__copytext__button button">Get Started</a>
+		 	</section>
+		 	<figure class="hero__image-presentation">
+				<img src="./img/landing_1.png" alt="hero__image-presentation"> 		
 		 	</figure>
-		 	<h3 class="value-proposal__copytext__testimony__name"></h3>
-		 	<h4 class="value-proposal__copytext__testimony__jobtitle"></h4>
-		 	<blockquoute class="value-proposal__copytext__testimony__quote">
-		 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-		 	</blockquoute>			
-		 </article>
-	  </section>
-	</section>
-
-	<section class="about-us">
-		<figure class="about-us__imagepresentation">
-			<img src="./img/landing_1.png" alt="about-us__imagepresentation"> 		
-	 	</figure>
-	 	<section class="about-us__copytext">
-	 		<h1 class="about-us__copytext__title">Grow Your <br /> Business <br /> Faster </h1>
-	 		<p class="about-us__copytext__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-	 		<a href="" class="about-us__copytext__button">Get Started</a>
-	 	</section>
-	</section>
-
-		<section class="testimonials">
-		 <h2 class="testimonials__title">Testimonials</h2>
-		 <section class="testimonials__slider">
-			 <section class="testimonial">
-				 <figure class="testimonial__avatar">
-				 	
-				 </figure>
-				 <blockquoute class="testimonial__quote">
-				 	
-				 </blockquoute>
-				 <h3 class="testimonial__name"></h3>			 	
-			 </section>
-
-			 <section class="testimonial__slider__scrollball">
-			 	
-			 </section>		 	
-		 </section>		 	
 		</section>
 
+		<section class="features">
+			<h2 class="features__title">Features</h2>
 
-	 <section class="contact">
-		 <h2 class="contact__title">Get In Touch</h2>
-		 <form action="" class="contact__form">
-			 <h3 class="contact__form_title">Contact Form</h3>
-			 <input type="text" class="contact__form_input">
-			 <input type="text" class="contact__form_input">
-			 <input type="text" class="contact__form_input">
-			 <input type="text" class="contact__form_input">
-			 <input type="textarea" class="contact__form_input">
-			 <button class="contact__form_button">Send Message</button>	 			 	
-		 </form>
-	 </section>
+			<section class="features__container">
+				<article class="feature-item">
+					<figure class="feature-item__icon">
+						<img src="img/svg_1.svg" width="60px" />
+					</figure>		
+					<h3 class="feature-item__title">Business Consulting</h3>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
+					<a href="" class="feature-item__cta">Learn More</a>
+				</article>
+				<article class="feature-item">
+					<figure class="feature-item__icon">
+						<img src="img/svg_1.svg" width="60px" />
+					</figure>		
+					<h3 class="feature-item__title">Business Consulting</h3>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
+					<a href="" class="feature-item__cta">Learn More</a>
+				</article>
+				<article class="feature-item">
+					<figure class="feature-item__icon">
+						<img src="img/svg_1.svg" width="60px" />
+					</figure>		
+					<h3 class="feature-item__title">Business Consulting</h3>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
+					<a href="" class="feature-item__cta">Learn More</a>
+				</article>
+				<article class="feature-item">
+					<figure class="feature-item__icon">
+						<img src="img/svg_1.svg" width="60px" />
+					</figure>		
+					<h3 class="feature-item__title">Business Consulting</h3>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
+					<a href="" class="feature-item__cta">Learn More</a>
+				</article>
+				<article class="feature-item">
+					<figure class="feature-item__icon">
+						<img src="img/svg_1.svg" width="60px" />
+					</figure>		
+					<h3 class="feature-item__title">Business Consulting</h3>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
+					<a href="" class="feature-item__cta">Learn More</a>
+				</article>
+				<article class="feature-item">
+					<figure class="feature-item__icon">
+						<img src="img/svg_1.svg" width="60px" />
+					</figure>		
+					<h3 class="feature-item__title">Business Consulting</h3>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
+					<a href="" class="feature-item__cta">Learn More</a>
+				</article>
+			</section>
+		</section>
 
-	 <footer class="footer">
-	 	<section class="footer_copyright">
-	 		<small>Copyright ©2019 All rights reserved</small>
-	 	</section>
-	 </footer>
-		 
+		<section class="value-proposal">
+		 		
+		  <figure class="value-proposal__image-presentation">
+		  	<img 
+		  		src="./img/do_ui_kit_download_cta_floating_devices-2x.png" 
+		  		alt="value-proposal__image-presentation" 
+		  		width="600" 
+		  	/>
+		  </figure>
+		  
+		  <section class="value-proposal__copytext">
+			 <h2 class="value-proposal__copytext__title">Create interactive prototypes</h2>
+			 <section class="value-proposal__copytext__description">
+			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+			 	<ul>
+			 		<li>Ullamco laboris nisi ut aliqui</li>
+			 		<li>Lorem ipsum dolor sit amet</li>
+			 	</ul>
+			 </section>
+			 
+			 <article class="value-proposal__copytext__testimony">
+			 	<figure class="value-proposal__copytext__testimony__avatar">
+			 		
+			 	</figure>
+			 	<h3 class="value-proposal__copytext__testimony__name"></h3>
+			 	<h4 class="value-proposal__copytext__testimony__jobtitle"></h4>
+			 	<blockquoute class="value-proposal__copytext__testimony__quote">
+			 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+			 	</blockquoute>			
+			 </article>
+		  </section>
+		</section>
 
+		<section class="about-us">
+
+			<h2 class="about-us__title">
+				About us
+			</h2>
+		
+			<section class="about-us__container">
+				<figure class="about-us__container__image-presentation">
+					<img src="./img/about_1.jpg" alt="about-us__container__image-presentation" width="600" /> 		
+			 	</figure>
+			 	<section class="about-us__container__copytext">
+			 		<h1 class="about-us__container__copytext__title">Grow Your <br /> Business <br /> Faster </h1>
+			 		<p class="about-us__container__copytext__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+			 		<a href="" class="about-us__container__copytext__button button">Get Started</a>
+			 	</section>			
+			</section>
+		</section>
+
+			<section class="testimonials">
+			 <h2 class="testimonials__title">Testimonials</h2>
+			 <section class="testimonials__slider" id="testimonialsContainer">
+				 <section class="testimonial">
+					 <figure class="testimonial__avatar">
+					 	
+					 </figure>
+					 <blockquoute class="testimonial__quote">
+					 	
+					 </blockquoute>
+					 <h3 class="testimonial__name"></h3>			 	
+				 </section>
+
+				 <section class="testimonial__slider__scrollball">
+				 	
+				 </section>		 	
+			 </section>		 	
+			</section>
+
+
+		 <section class="contact">
+			 <h2 class="contact__title">Get In Touch</h2>
+			 <form action="" class="contact__form">
+				 <h3 class="contact__form_title">Contact Form</h3>
+				 <input type="text" class="contact__form__input">
+				 <input type="text" class="contact__form__input">
+				 <input type="text" class="contact__form__input">
+				 <input type="text" class="contact__form__input">
+				 <input type="textarea" class="contact__form__input">
+				 <button class="contact__form_button button">Send Message</button>	 			 	
+			 </form>
+		 </section>
+
+		 <footer class="footer">
+			 	<section class="footer_copyright">
+			 		<small>Copyright ©2019 All rights reserved</small>
+			 	</section>
+		 </footer>
  </section>
+
+ <!-- Scripts -->
+	<script type="text/javascript" src="../src/js/index.js"></script>
+
 </body>
 </html>
