@@ -1,0 +1,63 @@
+.header__navbar--mobile {
+	display: none;
+}
+
+.header__navbar--mobile__icon {
+	display: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	.about-us__container__image-presentation  img {
+		width: 100%;
+	}
+
+	.landing-page {
+		padding: 0 2%;
+	}
+
+	.header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header__navbar {
+		display: none;
+	}
+
+	.header__navbar--mobile {
+
+	}
+
+	.header__navbar--mobile ul {
+		list-style: none;
+	}
+
+	.header__navbar--mobile__icon {
+		display: block;
+	}
+	
+	.hero {
+		flex-wrap: wrap;
+	}
+
+	.about-us__container {
+		flex-wrap: wrap;
+		flex-shrink: 0;
+		justify-content: center;
+	}
+
+	.value-proposal {
+		flex-wrap: wrap;
+		flex-shrink: 0;
+		justify-content: center;
+	}
+
+}
+
+
+@media screen and (max-width: 425px) {
+	
+}
