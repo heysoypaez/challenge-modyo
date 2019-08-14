@@ -16,10 +16,10 @@ const render = (async () => {
 	const users = await fetchDataApi("https://jsonplaceholder.typicode.com/users");
 	const posts = await fetchDataApi("https://jsonplaceholder.typicode.com/posts");
 	const avatars = [
-			"./img/person_4.jpg",
-			"./img/person_3.jpg",
-			"./img/person_2.jpg",
-			"./img/person_1.jpg"
+			"./public/img/person_4.jpg",
+			"./public/img/person_3.jpg",
+			"./public/img/person_2.jpg",
+			"./public/img/person_1.jpg"
 	]
 
 	function createTemplate(HTMLString) {
