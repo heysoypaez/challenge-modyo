@@ -12,6 +12,8 @@
 
 .contact__form {
 	display: grid;
+
+	max-width: 60%;
 	background-color: white;
 	padding: 5% 10%;
 	min-width: 40vw;
@@ -46,8 +48,8 @@
 
 .contact__form__input__name {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-column-gap: 5px;
+	grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+	grid-column-gap: 10%;
 }
 
 .contact__form__input__name__item {

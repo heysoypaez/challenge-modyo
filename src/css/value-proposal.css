@@ -29,7 +29,7 @@
     "quote quote quote";
     grid-row-gap: 10px;
     grid-column-gap: 5px;
-    grid-template-columns: 20% 40% 40%;
+    grid-template-columns: 20% repeat(auto-fill, minmax(40%, 1fr));
     border: 1px solid #eee;
 }
 

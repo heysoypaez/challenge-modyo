@@ -59,5 +59,21 @@
 
 
 @media screen and (max-width: 425px) {
-	
+	.testimonials__slider {
+		max-width: 90vw;
+	}
+
+
+	.testimonials__slider .testimonial {
+		min-width: 90vw;
+	}
+
+
+	.value-proposal__copy-text__testimony {
+	grid-template-areas:  "avatar avatar avatar"
+												"name name name"
+										    "jobTitle jobTitle jobTitle"
+										    "quote quote quote";	
+	}
+
 }
