@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Landerz - Grow Your Buusiness Faster</title>
+	<title>Landerz - Grow Your Business Faster</title>
 
 	<!-- Css stylessheet -->
 	<link rel="stylesheet" type="text/css" href="../src/css/index.css" />
@@ -14,140 +14,145 @@
 	<link rel="stylesheet" type="text/css" href="../src/css/testimonials.css" />
 	<link rel="stylesheet" type="text/css" href="../src/css/contact.css" />
 	<link rel="stylesheet" type="text/css" href="../src/css/footer.css" />
-			
+	<link rel="stylesheet" type="text/css" href="../src/css/responsive.css" />
+	<link rel="stylesheet" type="text/css" href="../src/css/utilities.css" />
+	<!-- Icons -->
+	<link rel="stylesheet" type="text/css" href="./fonts/icomoon/style.css" />	
+	<link rel="stylesheet" type="text/css" href="./fonts/flaticon/font/flaticon.css" />
 
 	<meta charset="utf-8" />
 </head>
 <body>
-<!--
- landingpage
-	 header
-		 header__navbar
-		 header__logo
-	 hero
-	  hero__copytext
-	  hero__image-presentation
-	 features
-		features__title
-		 feature-item
-		 feature-item__icon
-		 feature-item__title
-		 feature-item__details
-		 feature-item__cta
-	 value-proposal
-	  value-proposal__image-presentation
-	  value-proposal__copytext
-		 value-proposal__copytext__title
-		 value-proposal__copytext__description
-		 value-proposal__copytext__testimony
-	 about-us
-	  about-us__container__image-presentation
-	  about-us__container__copytext
-		 about-us__container__copytext__title
-		 about-us__container__copytext__description
-		 about-us__container__copytext__link
-	 testimonials
-		 testimonials__title
-		 testimonials__slider
-			 testimonial
-				 testimonial__avatar
-				 testimonial__text
-				 testimonial__name
-			 testimonial__slider__scrollball
-	 contact
-		 contact__title
-		 contact__form
-			 contact__form_title
-			 contact__form_input
-			 contact__form_button
-	 footer
-		 footer_copyright
- -->
- <section class="landing-page">
+
+ <main class="landing-page">
 
 	 	<header class="header">
 		 		<nav class="header__navbar">
 		 			<ul>
-		 				<li class="header__navbar__item">Home</li>
-		 				<li class="header__navbar__item">Features</li>
-		 				<li class="header__navbar__item">About Us</li>
-		 				<li class="header__navbar__item">Testimonials</li>
-		 				<li class="header__navbar__item">Blog</li>
-		 				<li class="header__navbar__item header__navbar__contact">Contact</li>
+		 				<li class="header__navbar__item">
+		 					<a href="./index.html#home">Home</a>
+		 				</li>
+		 				<li class="header__navbar__item">
+		 					<a href="./index.html#features">Features</a>
+		 				</li>
+		 				<li class="header__navbar__item">
+		 					<a href="./index.html#aboutus">About Us</a>
+		 				</li>
+		 				<li class="header__navbar__item">
+		 					<a href="./index.html#testimonials">Testimonials</a>
+		 				</li>
+		 				<li class="header__navbar__item">
+		 					<a href="./index.html#blog">Blog</a>
+		 				</li>
+		 				<li class="header__navbar__item header__navbar__contact">
+		 					<a href="./index.html#contact">Contact</a>
+		 				</li>
 		 			</ul>
 		 		</nav>
+
+
+
+
 		 		<h1 class="header__logo">
 		 			Landerz<span class="header__logo__dot">.</span>
 		 		</h1>
+
+		 		<figure class="header__navbar--mobile__icon" >
+					<span class="icon-menu" id="iconMenu" ></span>
+				</figure>
+
+				<nav class="header__navbar--mobile" id="menuResponsive">
+		 			<ul>
+		 				<li class="header__navbar__item">
+		 					<a href="./index.html#home">Home</a>
+		 				</li>
+		 				<li class="header__navbar__item">
+		 					<a href="./index.html#features">Features</a>
+		 				</li>
+		 				<li class="header__navbar__item">
+		 					<a href="./index.html#aboutus">About Us</a>
+		 				</li>
+		 				<li class="header__navbar__item">
+		 					<a href="./index.html#testimonials">Testimonials</a>
+		 				</li>
+		 				<li class="header__navbar__item">
+		 					<a href="./index.html#blog">Blog</a>
+		 				</li>
+		 				<li class="header__navbar__item header__navbar__contact">
+		 					<a href="./index.html#contact">Contact</a>
+		 				</li>
+		 			</ul>
+		 		</nav>
+
 	 	</header>
 
-		<section class="hero">
-		 	<section class="hero__copytext">
-		 		<h1 class="hero__copytext__title">Grow Your <br /> Business <br /> Faster </h1>
-		 		<p class="hero__copytext__description">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
-		 		<a href="" class="hero__copytext__button button">Get Started</a>
+		<section class="hero" id="home">
+		 	<section class="hero__copy-text">
+		 		<h1 class="hero__copy-text__title">Grow Your <br /> Business <br /> Faster </h1>
+		 		<p class="hero__copy-text__description">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
+		 		<a href="./index.html#contact" class="hero__copy-text__button button">Get Started</a>
 		 	</section>
 		 	<figure class="hero__image-presentation">
 				<img src="./img/landing_1.png" alt="hero__image-presentation"> 		
 		 	</figure>
 		</section>
 
-		<section class="features">
+		<section class="features" id="features">
 			<h2 class="features__title">Features</h2>
 
 			<section class="features__container">
 				<article class="feature-item">
 					<figure class="feature-item__icon">
-						<img src="img/svg_1.svg" width="60px" />
+						<span class="icon-refresh"></span>
 					</figure>		
 					<h3 class="feature-item__title">Business Consulting</h3>
-					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
-					<a href="" class="feature-item__cta">Learn More</a>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident.</p>
+					<a href="./index.html#valueproposal" class="feature-item__cta">Learn More</a>
 				</article>
 				<article class="feature-item">
 					<figure class="feature-item__icon">
-						<img src="img/svg_1.svg" width="60px" />
+						<span class="flaticon-house"></span>
 					</figure>		
-					<h3 class="feature-item__title">Business Consulting</h3>
-					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
-					<a href="" class="feature-item__cta">Learn More</a>
+					<h3 class="feature-item__title">Market Analysis</h3>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident.</p>
+					<a href="./index.html#valueproposal" class="feature-item__cta">Learn More</a>
 				</article>
 				<article class="feature-item">
 					<figure class="feature-item__icon">
-						<img src="img/svg_1.svg" width="60px" />
+						<span class="icon-shopping_basket"></span>
 					</figure>		
-					<h3 class="feature-item__title">Business Consulting</h3>
-					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
-					<a href="" class="feature-item__cta">Learn More</a>
+					<h3 class="feature-item__title">User Monitoring</h3>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident.</p>
+					<a href="./index.html#valueproposal" class="feature-item__cta">Learn More</a>
 				</article>
 				<article class="feature-item">
 					<figure class="feature-item__icon">
-						<img src="img/svg_1.svg" width="60px" />
+						<span class="icon-rotate-left"></span>
 					</figure>		
-					<h3 class="feature-item__title">Business Consulting</h3>
-					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
-					<a href="" class="feature-item__cta">Learn More</a>
+					<h3 class="feature-item__title">Insurance Consulting</h3>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident</p>
+					<a href="./index.html#valueproposal" class="feature-item__cta">Learn More</a>
 				</article>
 				<article class="feature-item">
 					<figure class="feature-item__icon">
-						<img src="img/svg_1.svg" width="60px" />
+						<span class="icon-smile-o"></span>
 					</figure>		
-					<h3 class="feature-item__title">Business Consulting</h3>
-					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
-					<a href="" class="feature-item__cta">Learn More</a>
+					<h3 class="feature-item__title">Customer Satisfied</h3>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident.</p>
+					<a href="./index.html#valueproposal" class="feature-item__cta">Learn More</a>
 				</article>
 				<article class="feature-item">
 					<figure class="feature-item__icon">
-						<img src="img/svg_1.svg" width="60px" />
+						<span class="icon-plug"></span>
 					</figure>		
-					<h3 class="feature-item__title">Business Consulting</h3>
-					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident, sunt in culpa qui fuga officia</p>
-					<a href="" class="feature-item__cta">Learn More</a>
+					<h3 class="feature-item__title">Plug & Play</h3>
+					<p class="feature-item__details">Lorem ipsum dolor sit amet, consectetur elit.  Excepteur sint occaecat cupidatat non es proident.</p>
+					<a href="./index.html#valueproposal" class="feature-item__cta">Learn More</a>
 				</article>
 			</section>
 		</section>
 
-		<section class="value-proposal">
+		<section class="value-proposal" >
 		 		
 		  <figure class="value-proposal__image-presentation">
 		  	<img 
@@ -157,89 +162,104 @@
 		  	/>
 		  </figure>
 		  
-		  <section class="value-proposal__copytext">
-			 <h2 class="value-proposal__copytext__title">Create interactive prototypes</h2>
-			 <section class="value-proposal__copytext__description">
+		  <section class="value-proposal__copy-text">
+			 <h2 class="value-proposal__copy-text__title">Create interactive prototypes</h2>
+			 <section class="value-proposal__copy-text__description">
 			 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
 			 	<ul>
-			 		<li>Ullamco laboris nisi ut aliqui</li>
+			 		<li>
+			 		 Ullamco laboris nisi ut aliqui</li>
 			 		<li>Lorem ipsum dolor sit amet</li>
 			 	</ul>
 			 </section>
 			 
-			 <article class="value-proposal__copytext__testimony">
-			 	<figure class="value-proposal__copytext__testimony__avatar">
-			 		
+			 <article class="value-proposal__copy-text__testimony">
+			 	<figure class="value-proposal__copy-text__testimony__avatar">
+			 		<img src="./img/person_1.jpg" alt="value-proposal__copy-text__testimony__avatar" width="300">
 			 	</figure>
-			 	<h3 class="value-proposal__copytext__testimony__name"></h3>
-			 	<h4 class="value-proposal__copytext__testimony__jobtitle"></h4>
-			 	<blockquoute class="value-proposal__copytext__testimony__quote">
-			 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+			 	<h3 class="value-proposal__copy-text__testimony__name">Amalia G.</h3>
+			 	<h4 class="value-proposal__copy-text__testimony__job-title">Co-Founder , XYZ Inc.</h4>
+			 	<blockquoute class="value-proposal__copy-text__testimony__quote">
+			 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
 			 	</blockquoute>			
 			 </article>
 		  </section>
 		</section>
 
-		<section class="about-us">
+		<section class="about-us" id="aboutus">
 
 			<h2 class="about-us__title">
-				About us
+				About Us
 			</h2>
 		
 			<section class="about-us__container">
 				<figure class="about-us__container__image-presentation">
 					<img src="./img/about_1.jpg" alt="about-us__container__image-presentation" width="600" /> 		
 			 	</figure>
-			 	<section class="about-us__container__copytext">
-			 		<h1 class="about-us__container__copytext__title">Grow Your <br /> Business <br /> Faster </h1>
-			 		<p class="about-us__container__copytext__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-			 		<a href="" class="about-us__container__copytext__button button">Get Started</a>
+			 	<section class="about-us__container__copy-text">
+			 		<h1 class="about-us__container__copy-text__title">Create interactive prototypes </h1>
+			 		<p class="about-us__container__copy-text__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex  </p>
+			 		<a href="./index.html#contact" class="about-us__container__copy-text__button button">Learn More</a>
 			 	</section>			
 			</section>
 		</section>
 
-			<section class="testimonials">
-			 <h2 class="testimonials__title">Testimonials</h2>
-			 <section class="testimonials__slider" id="testimonialsContainer">
-				 <section class="testimonial">
-					 <figure class="testimonial__avatar">
-					 	
-					 </figure>
-					 <blockquoute class="testimonial__quote">
-					 	
-					 </blockquoute>
-					 <h3 class="testimonial__name"></h3>			 	
-				 </section>
+		<section class="testimonials" id="testimonials">
+		 <h2 class="testimonials__title">Testimonials</h2>
+		 <section id="testimonialsContainer">
+			 <!--This conntent is fill in the file index.js fetching an API -->
+		 </section>		 	
+		</section>
 
-				 <section class="testimonial__slider__scrollball">
-				 	
-				 </section>		 	
-			 </section>		 	
-			</section>
-
-
-		 <section class="contact">
+		 <section class="contact" id="contact">
 			 <h2 class="contact__title">Get In Touch</h2>
 			 <form action="" class="contact__form">
-				 <h3 class="contact__form_title">Contact Form</h3>
-				 <input type="text" class="contact__form__input">
-				 <input type="text" class="contact__form__input">
-				 <input type="text" class="contact__form__input">
-				 <input type="text" class="contact__form__input">
-				 <input type="textarea" class="contact__form__input">
+				 <h3 class="contact__form__title">Contact Form</h3>
+					
+				<div class="contact__form__input contact__form__input__name">
+					
+					<div class="contact__form__input__name__item">
+					 <label >First Name</label>
+					 <input type="text" />
+					</div>
+
+					<div class="contact__form__input__name__item">
+					 <label for="" >Last Name</label>
+					 <input type="text" />
+					</div>
+
+				</div>
+
+				<div class="contact__form__input">	
+					<label for="" >Email</label>
+				 <input type="text" />
+				</div>
+
+				<div class="contact__form__input">
+				 <label for="" >Subject</label>
+				 <input type="text" />
+				</div>
+
+				<div class="contact__form__input">	
+ 				<label for="" >Message</label>
+				 <textarea placeholder="Write your notes or questions here..."> 
+				 </textarea>
+				</div>
+
 				 <button class="contact__form_button button">Send Message</button>	 			 	
 			 </form>
 		 </section>
-
-		 <footer class="footer">
-			 	<section class="footer_copyright">
-			 		<small>Copyright ©2019 All rights reserved</small>
-			 	</section>
-		 </footer>
- </section>
+	
+ </main>
+	<footer class="footer">
+		 	<section class="footer_copyright">
+		 		<small>Copyright ©2019 All rights reserved</small>
+		 	</section>
+	</footer>
 
  <!-- Scripts -->
 	<script type="text/javascript" src="../src/js/index.js"></script>
+	<script type="text/javascript" src="../src/js/responsive.js"></script>
 
 </body>
 </html>
