@@ -30,6 +30,8 @@ h2 {
 
 .landing-page > section {
 	min-height: 300px;
+	padding-top: 5%;
+	padding-bottom: 8%;
 }
 
 a {

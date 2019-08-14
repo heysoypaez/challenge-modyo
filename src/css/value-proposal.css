@@ -1,4 +1,64 @@
 .value-proposal {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
+
+.value-proposal__copy-text {
+	padding-right: 15%;
+}
+
+
+
+
+.value-proposal__copy-text__description ul {
+  list-style: none;
+}
+
+.value-proposal__copy-text__description  ul li:before {
+  content: '✓';
+  color: green;
+  margin-right: 10px;
+}
+
+.value-proposal__copy-text__testimony {
+		box-shadow: #ddd 1px 10px 10px;
+		padding: 5% 5%;
+		display: grid;
+		grid-template-areas:  "avatar name name"
+    "avatar jobTitle jobTitle"
+    "quote quote quote";
+    grid-row-gap: 10px;
+    grid-column-gap: 5px;
+    grid-template-columns: 20% 40% 40%;
+    border: 1px solid #eee;
+}
+
+.value-proposal__copy-text__testimony__avatar {
+	grid-area: avatar;
+	margin: 0;
+	align-self: center;
+	justify-self: center;
+}
+
+.value-proposal__copy-text__testimony__avatar img {
+	max-width: 70px;
+	border-radius: 100%;
+}
+
+
+	.value-proposal__copy-text__testimony__name {
+	grid-area: name;
+	margin: 0;
+	}
+
+	.value-proposal__copy-text__testimony__job-title {
+	grid-area: jobTitle;
+	margin: 0;
+	}
+
+	.value-proposal__copy-text__testimony__quote {
+	grid-area: quote;
+	}
+
+
+

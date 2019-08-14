@@ -16,18 +16,19 @@
 }
 
 
-.hero__copytext {
+.hero__copy-text {
 	padding-left: 10%;
 	padding-right: 5%;
 }
 
-.hero__copytext__description {
+.hero__copy-text__description {
 	margin-bottom: 15%;
 }
 
-.hero__copytext__title {
-	font-size: 50px;
+.hero__copy-text__title {
+	font-size: 4em;
 	font-weight: 800;
 	margin: 0;
 
 }
+

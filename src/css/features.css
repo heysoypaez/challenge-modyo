@@ -1,6 +1,6 @@
 .features {
 	background-color: #EAEAE5;
-	padding-bottom: 8%;
+	padding-top: 0;
 }
 
 .features__title {
@@ -11,16 +11,32 @@
 
 .features__container {
 	display: grid;
-	grid-template-columns: 30% 30% 30%;
+	margin: auto 10%;
+
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	justify-content: center;
 	grid-gap: 30px 30px;
 }
 
 .feature-item {
 	background-color: white;
-	padding: 3% 5% 10% 5%;
+	padding: 3% 7% 10% 7%;
 }
 
 .feature-item__cta {
 	color: #00AA9D;
 }
+
+
+.feature-item__icon {
+	margin: 10% 0;
+}
+
+.feature-item__icon span {
+	background-color: #00AA9D	;
+	color: white;
+	padding: 5%;
+	border-radius: 100%;
+	font-size: 30px;
+}
+

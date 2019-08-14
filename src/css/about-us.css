@@ -8,5 +8,22 @@
 
 .about-us__container {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding-left: 5%;
+	padding-right: 5%;
 }
+
+.about-us__container__image-presentation  img {
+	max-width: 500px;
+
+	box-shadow: gray 1px 10px 10px;
+}
+
+.about-us__container__copy-text__title {
+	font-size: 2em;
+}
+
+.about-us__container__copy-text {
+	padding: 0 10%;
+}
+

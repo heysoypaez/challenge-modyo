@@ -1,14 +1,14 @@
 
-.header {
-
-}
-
 .header__navbar {
 	box-shadow: #ddd 1px 2px 3px;
 	padding: 0.1% 0;
 }
 
-.header__navbar__contact {
+.header__navbar__item a {
+	color: gray;
+}
+
+.header__navbar__contact a {
 	font-weight: bold;
 	color: #6FD7C9;
 }
@@ -26,11 +26,16 @@
 	margin-top: 10px;
 	text-align: center;
 	font-weight: 600;
-
 }
 
 .header__logo__dot {
 	color: #00AA9D;	
 }
 
-.
+.header__navbar--mobile__icon {
+	cursor: pointer;
+}
+
+.icon-menu {
+	font-size: 2em;
+}

@@ -1,0 +1,16 @@
+.show {
+	display: block;
+	animation: elementMount 1s;
+}
+
+@keyframes  elementMount {
+	from {
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+
+	to {
+	transform: translateX(00px);
+	opacity: 1;
+	}
+}
